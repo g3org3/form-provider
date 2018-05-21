@@ -1,4 +1,4 @@
-# form-provider
+# react-form-provider
 
 ## Getting Started
 
@@ -7,7 +7,7 @@ You will need Node >= 7 installed. [How do I install node? click here to find ou
 ### Installation
 
 ```sh
-npm install form-provider
+npm install react-form-provider
 ```
 
 # Usage
