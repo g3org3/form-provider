@@ -10,11 +10,9 @@ You will need Node >= 7 installed. [How do I install node? click here to find ou
 npm install react-form-provider
 ```
 
-# Usage
+# Example
 
-```sh
-
-```
+[https://codesandbox.io/s/2pxzr8zry](https://codesandbox.io/s/2pxzr8zry)
 
 ## Contributors
 
