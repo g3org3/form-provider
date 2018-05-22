@@ -1,16 +1,16 @@
-import React from "react";
-import PropTypes from "react-proptypes";
+import React, { Component } from "react";
+// import PropTypes from "react-proptypes";
 
 const FormContext = React.createContext({});
 const isChecked = type => type === "checkbox" || type === "radio";
 
-export default class FormProvider extends React.PureComponent {
-  static propTypes = {
-    onSubmit: PropTypes.func,
-    values: PropTypes.object,
-    disableAutoSubmit: PropTypes.bool,
-    formProps: PropTypes.object
-  }
+export default class FormProvider extends Component {
+  // static propTypes = {
+  //   onSubmit: PropTypes.func,
+  //   values: PropTypes.object,
+  //   disableAutoSubmit: PropTypes.bool,
+  //   formProps: PropTypes.object
+  // }
   static defaultProps = {
     onSubmit: () => console.log("FormProvider.props.onSubmit"),
     values: {}
